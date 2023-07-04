@@ -1,0 +1,25 @@
+.board {
+  /* Your existing styles for the board */
+}
+
+.board ul {
+  /* Your existing styles for the number list */
+  list-style: none;
+}
+
+.board li {
+  /* Your existing styles for the numbers */
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.board li.called {
+  background-color: yellow;
+}
